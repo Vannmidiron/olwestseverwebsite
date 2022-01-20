@@ -1,0 +1,76 @@
+/* we can comment */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+
+h1 {
+    color: #d32a00;
+    font-size: 30   px;
+}
+/* this is how to target your html */
+    
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url(banner.jpg);
+    background-position: center;
+    font-family:'lobster';
+    font-size: 20px;
+    text-shadow: 2px 1px #000000;
+    border-style:ridge;
+    border-width: 5px;
+}
+nav a{
+    color: indigo;
+}
+.nav a:hover{
+    color: green;
+    text-decoration:none;
+}
+.purple{
+    color: mediumpurple;
+}
+
+body {
+    background-image: url(rdobackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+
+}
+p {
+    font-family:'indie flower';
+    font-size: 20px;
+    color: darkslateblue;
+}
+
+h1 {
+    font-family:'lobster';
+}
+h3 {
+    font-family:'lobster';
+    font-size: 30px;
+    color: darkslategray;
+}
+h2{
+    font-family:'lobster';
+    color:darkviolet
+
+}
+/* div {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #666;
+    margin-bottom: 1rem;
+} */
+#container1 {
+    height:50px
+}
+.boldtype{
+    font-family:'indie flower';
+    font-weight: bold;
+}
+img {
+    width: 250px;
+    padding: .4rem;
+    flex: 1 1 auto
+}
